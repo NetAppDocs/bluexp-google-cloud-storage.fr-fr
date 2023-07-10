@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task-change-gcp-bucket-settings.html 
+keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
+summary: Une fois que votre environnement de travail Google Cloud Storage est disponible dans la zone de dessin, vous pouvez modifier certaines propriétés de compartiment directement à partir de BlueXP. 
+---
+= Modifiez les paramètres du compartiment Google Cloud Storage
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois que votre environnement de travail Google Cloud Storage est disponible dans la zone de dessin, vous pouvez modifier certaines propriétés de compartiment directement à partir de BlueXP.
+
+Notez que vous ne pouvez pas modifier le nom du compartiment, le projet Google ou les paramètres de protection.
+
+Les propriétés de compartiment que vous pouvez modifier sont les suivantes :
+
+* Classe de stockage pour tous les objets futurs dans le compartiment.
+* Vous pouvez choisir d'ajouter, de modifier et de supprimer des étiquettes aux objets du compartiment.
+* Mode de réplication Turbo - uniquement si le compartiment se trouve dans un emplacement à deux régions.
+
+
+Vous pouvez modifier ces paramètres de compartiment directement à partir de BlueXP en cliquant sur image:button-horizontal-more.gif["le bouton trois points plus"] > *Modifier les détails du compartiment* pour un compartiment.
+
+image:screenshot-edit-gcp-bucket.png["Une capture d'écran montrant comment sélectionner le bouton Modifier les détails du compartiment pour modifier les propriétés du compartiment."]
+
+
+
+== Modifier la classe de stockage
+
+La section classe de stockage vous permet d'apporter uniquement certaines modifications :
+
+* Si _autoclass_ a été sélectionné lors de la création du compartiment, vous pouvez désactiver autoclass et sélectionner une autre classe de stockage.
+* Si une autre classe de stockage a été sélectionnée lors de la création du compartiment, vous pouvez passer à une autre classe de stockage, sauf _autoclass_.
+
+
+Les objets qui se trouvaient dans une classe différente resteront dans cette classe, mais tous les nouveaux objets utiliseront le nouveau paramètre de classe.
+
+
+
+== Ajouter ou modifier des étiquettes pour les objets dans le compartiment
+
+Les étiquettes sont des métadonnées que vous pouvez utiliser pour regrouper les ressources afin d'identifier les applications, les environnements, les régions, les fournisseurs de cloud, etc. Les étiquettes se composent d'une clé et d'une valeur. Vous pouvez ajouter des étiquettes à un compartiment de sorte que les étiquettes soient appliquées aux objets lorsqu'ils sont ajoutés au compartiment. Vous pouvez également modifier et supprimer des étiquettes et des valeurs d'étiquettes.
+
+Après avoir ajouté ou modifié une étiquette, cliquez sur *appliquer* pour enregistrer vos modifications. Si vous souhaitez ajouter d'autres étiquettes, cliquez sur *Ajouter une nouvelle étiquette*. Vous pouvez ajouter jusqu'à 10 étiquettes par seau.
+
+
+
+== Modifiez si la réplication Turbo est activée dans les emplacements à deux régions
+
+Si le compartiment se trouve dans un emplacement à deux régions, vous pouvez activer ou désactiver le mode de réplication turbo. La fonction « réplication Turbo » vous permet de garantir la redondance géographique de tous les objets récemment écrits dans un délai de 15 minutes.
+
+Aucune autre information d'emplacement ne peut être modifiée après la création du compartiment.

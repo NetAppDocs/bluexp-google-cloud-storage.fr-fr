@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-gcp-storage.html 
+keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment 
+summary: Après avoir installé un connecteur dans Google Cloud, BlueXP peut automatiquement découvrir des informations sur les compartiments Google Cloud qui résident dans le compte Google où le connecteur est installé. Un environnement de travail Google Cloud Storage est ajouté à Canvas pour vous permettre de visualiser ces informations. 
+---
+= Consultez vos compartiments de stockage Google Cloud
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Après avoir installé un connecteur dans Google Cloud, BlueXP peut automatiquement découvrir des informations sur les compartiments Google Cloud Storage qui résident dans le compte Google où le connecteur est installé. Un environnement de travail Google Cloud Storage est ajouté à Canvas pour vous permettre de visualiser ces informations.
+
+Vous trouverez des informations détaillées sur vos compartiments Google Cloud Storage : l'emplacement, l'état d'accès, la classe de stockage, la capacité totale et utilisée, entre autres. Ces compartiments peuvent être utilisés comme destinations pour la sauvegarde et la restauration BlueXP, le Tiering BlueXP ou les opérations de copie et de synchronisation BlueXP.
+
+.Étapes
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["Installer un connecteur"^] Dans le compte Google où vous souhaitez consulter vos compartiments Google Cloud Storage.
+. Dans le menu de navigation, sélectionnez *stockage > Canvas*.
++
+Vous devriez voir automatiquement un environnement de travail Google Cloud Storage peu après.
+
++
+image:screenshot-gcp-cloud-storage-we.png["Copie d'écran d'un environnement de travail Google Cloud Storage."]
+
+. Sélectionnez l'environnement de travail et sélectionnez une action dans le volet de droite si vous souhaitez activer les services BlueXP avec votre stockage Google Cloud.
++
+image:screenshot-gcp-cloud-storage-actions.png["Copie d'écran affichant le volet actions une fois que vous avez sélectionné un environnement de travail Google Cloud Storage. Le volet affiche le nombre total de rubriques et d'actions disponibles."]
+
++
+link:task-gcp-enable-data-services.html["Découvrez les services BlueXP disponibles et apprenez à les utiliser avec vos compartiments Google Cloud Storage"].
+
+. Sélectionnez *entrer l'environnement de travail* ou double-cliquez sur l'environnement de travail pour afficher les détails des compartiments de votre compte Google.
++
+image:screenshot-gcp-cloud-storage-details.png["Une capture d'écran présente les détails d'un environnement de travail Google Cloud Storage : le nombre total de compartiments, de capacité et d'emplacements, puis un tableau présentant des informations détaillées sur chaque compartiment."]
+
++
+Outre les colonnes qui apparaissent par défaut, vous pouvez faire défiler la page pour afficher des propriétés supplémentaires pour le compartiment, par exemple le nombre d'étiquettes et le type de cryptage activé.
+
+
+
+.Et la suite
+Vous pouvez modifier certains paramètres de compartiment directement à partir de BlueXP en cliquant sur image:button-horizontal-more.gif["le bouton trois points plus"] pour un godet. link:task-change-gcp-bucket-settings.html["Cliquez ici pour plus d'informations"].
+
+Vous pouvez ajouter de nouveaux compartiments en cliquant sur *Ajouter un compartiment*. link:task-add-gcp-bucket.html["Cliquez ici pour plus d'informations"].

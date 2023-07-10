@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-gcp-enable-data-services.html 
+keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets 
+summary: Une fois que vous avez découvert des compartiments de stockage Google Cloud dans BlueXP, vous pouvez utiliser les services de données NetApp pour la sauvegarde, le Tiering et la synchronisation des données. 
+---
+= Utilisez les services de données NetApp avec des compartiments de stockage Google Cloud
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois que vous avez découvert des compartiments de stockage Google Cloud dans BlueXP, vous pouvez utiliser les services de données NetApp pour la sauvegarde, le Tiering et la synchronisation des données.
+
+* Utilisez *BlueXP Backup and Recovery* pour sauvegarder les données de vos systèmes ONTAP et Cloud Volumes ONTAP sur site vers le stockage objet Google Cloud.
++
+Pour commencer, accédez à la zone de travail et glissez-déposez un environnement de travail ONTAP ou Cloud Volumes ONTAP sur site dans votre environnement de travail Google Cloud Storage.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["En savoir plus sur la sauvegarde des données ONTAP dans Google Cloud Storage"^].
+
+* Utilisez *le Tiering BlueXP* pour hiérarchiser les données inactives des clusters ONTAP sur site vers le stockage objet Google Cloud.
++
+Pour commencer, accédez à la zone de travail et glissez-déposez un environnement de travail ONTAP sur site dans votre environnement de travail Google Cloud Storage.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-gcp.html["En savoir plus sur le Tiering des données ONTAP dans Google Cloud Storage"^].
+
+* Utilisez *la copie et la synchronisation BlueXP* pour synchroniser les données depuis et vers des compartiments de stockage Google Cloud.
++
+Pour commencer, accédez à Canvas et faites glisser et déposez l'environnement de travail source sur l'environnement de travail cible. Votre environnement de travail Google Cloud Storage peut être la source ou la cible.
+
++
+Vous pouvez également sélectionner votre environnement de travail Google Cloud Storage et cliquer sur *Copier et synchroniser* dans le panneau Services pour synchroniser les données depuis ou vers des compartiments de stockage cloud.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["En savoir plus sur le service de copie et de synchronisation BlueXP"^].
+
+

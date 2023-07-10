@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Découvrez les nouveautés de Google Cloud Storage dans BlueXP. 
+---
+= Nouveautés du stockage Google Cloud dans BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les nouveautés de Google Cloud Storage dans BlueXP.
+
+
+
+== 10 juillet 2023
+
+
+
+=== Possibilité d'ajouter de nouveaux compartiments et de gérer les compartiments existants à partir de BlueXP
+
+Vous avez pu afficher les compartiments Google Cloud Storage sur le canevas BlueXP pendant un certain temps. Vous pouvez désormais ajouter de nouveaux compartiments et modifier les propriétés des compartiments existants directement à partir de BlueXP. https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["Découvrez comment ajouter de nouveaux compartiments de stockage Google Cloud"^].
