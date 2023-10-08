@@ -1,0 +1,1 @@
+Sitemap: https://docs.netapp.com/fr-fr/bluexp-google-cloud-storage/sitemap.xml
